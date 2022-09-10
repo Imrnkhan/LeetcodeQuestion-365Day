@@ -4,6 +4,6 @@ public class TestA {
     public static void main(String[] args) {
 
         Boolean b = true;
-        System.out.println();
+        System.out.println(b=!b);
     }
 }
