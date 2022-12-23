@@ -10,14 +10,12 @@ public class OverloadStaticMethodExample1 {
     }
 
     //overloaded static method
-    public static void display(int x)
-    {
+    public static void display(int x) {
         System.out.println("An overloaded static method called.");
 
     }
     //main method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
 //calling static method by using the class name
         OverloadStaticMethodExample1.display();
         OverloadStaticMethodExample1.display(160);

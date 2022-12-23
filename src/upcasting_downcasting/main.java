@@ -23,5 +23,7 @@ class Child extends DownCasting_Parent {
         c.age = 18;
         System.out.println(ks.name);
         System.out.println(c.age);
+
+
 }
  }

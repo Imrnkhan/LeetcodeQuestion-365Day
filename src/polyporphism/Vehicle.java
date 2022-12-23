@@ -1,8 +1,7 @@
 package polyporphism;
 
-//public class Overriding {
-    //Creating a parent class.
-    class Vehicle{
+    //Creating a parent class. override
+    public class Vehicle{
         //defining a method
         void run(){
             System.out.println("Vehicle is running");

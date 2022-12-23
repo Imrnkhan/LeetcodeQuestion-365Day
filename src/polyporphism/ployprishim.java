@@ -12,6 +12,6 @@ public class ployprishim {
         ployprishim ps = new ployprishim();
         byte bx = 20;
         ps.funA(bx);    // it will give the priority to the nearest one
-//        ps.funB(20);
+        ps.funB(20);
     }
 }

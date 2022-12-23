@@ -1,7 +1,6 @@
 package super_keyword;
 
-//public class super_varible {
-//}
+
 
 class vechile{
     int getSpeed = 145;
@@ -12,6 +11,7 @@ class vechile{
 class car extends vechile{
     int maxspeed =180;
     void display(){
+        System.out.println(speed);
         System.out.println("running speed "+super.speed);
     }
 }

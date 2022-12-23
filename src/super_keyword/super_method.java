@@ -1,8 +1,6 @@
 package super_keyword;
 
-//public class super_method {
-//
-//}
+
 class person{
   void  message(){
         System.out.println("person class ");
@@ -15,6 +13,7 @@ class student extends person{
 
     }
     void display() {
+        System.out.println("display");
         message();
         super.message();
     }
