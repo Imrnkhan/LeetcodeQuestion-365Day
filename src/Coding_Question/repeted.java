@@ -6,13 +6,12 @@ public class repeted {
         //intial array
         int arr[] = {2, 4, 6, 4, 2, 4, 5, 8};
 
-          int max_element = 8;
 
 
 
         //declare an array of size max_element+1
 
-        int count_arr[] = new int[max_element+1];
+        int count_arr[] = new int[arr.length+1];
 
         //loop through the original array and update the count
 
