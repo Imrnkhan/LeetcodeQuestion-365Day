@@ -19,7 +19,7 @@ public class longest_substring_nonRepeat {
      if(!hs.contains(str.charAt(j))){
          hs.add(str.charAt(j++));
          max = Math.max(max,hs.size());
-     }
+     } 
      else {
          hs.remove(str.charAt(i++));
      }
