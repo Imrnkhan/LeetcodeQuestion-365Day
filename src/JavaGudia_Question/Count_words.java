@@ -2,7 +2,7 @@ package JavaGudia_Question;
 
 public class Count_words {
     public static void main(String[] args) {
-        String str = "java developer";
+        String str = "In the given string";
         test(str);
     }
     public static void  test(String str){

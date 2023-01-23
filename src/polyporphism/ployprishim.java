@@ -15,3 +15,4 @@ public class ployprishim {
         ps.funB(20);
     }
 }
+
