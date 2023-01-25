@@ -17,3 +17,13 @@ public class Palindrome {
             System.out.println("NotPalindrome");
     }
 }
+
+
+
+//
+// if ((inputString.toString()).equals(inputString.reverse().toString())) {
+//         System.out.println("YES");
+//         }else{
+//         System.out.println("NO");
+//         }
+//
