@@ -3,7 +3,7 @@ package Leetcode;
 public class insert_position {
     public static void main(String[] args) {
         int[] arr = {5, 7, 7, 8, 8, 10};
-        int tagget = 8;
+        int tagget = 9;
         System.out.println(searchInsert(arr, tagget));
 
     }
@@ -15,8 +15,10 @@ public class insert_position {
         while (low <= high) {
             int mid = (low + high) / 2;
             if (arr[mid] == target) return mid;
-            else if (arr[mid] > target) high = mid - 1;
-            else low = mid + 1;
+            else if (arr[mid] > target)
+                high = mid - 1;
+            else
+                low = mid + 1;
         }
         return low;
     }
