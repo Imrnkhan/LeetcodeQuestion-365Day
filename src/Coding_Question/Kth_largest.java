@@ -21,6 +21,7 @@ public class Kth_largest {
     }
 }
 
+//another way to solve sort
 
 //        Arrays.sort(arr);
 //        return arr[arr.length-k];

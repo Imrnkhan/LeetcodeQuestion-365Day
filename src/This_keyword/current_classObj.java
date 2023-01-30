@@ -17,5 +17,6 @@ public class current_classObj {   // this way to call cureent class object
     public static void main(String[] args) {
         current_classObj demo = new current_classObj(90,"sahil");
         demo.display();
+//        System.out.println(demo.id+" "+ demo.name);    // another way this way
     }
 }
