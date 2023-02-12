@@ -19,3 +19,26 @@ public class Interger_Palindrome {
         return true;
     }
 }
+
+
+/*
+
+// this string palindrome
+public  class Interger_Palindrome {
+    public static void main(String[] args) {
+        String ans = "madam";
+        System.out.println(test(ans));
+    }
+    public static boolean test(String ans){
+        int left = 0;
+        int right = ans.length()-1;
+        while (left<right){
+            if(ans.charAt(left++)!=ans.charAt(right--)){
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+ */
