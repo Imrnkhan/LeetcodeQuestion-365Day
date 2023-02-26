@@ -2,7 +2,7 @@ package JavaImportant50Question;
 
 import java.util.Arrays;
 
-public class TwoSortedArray_SumK {
+public class SortedArray_SumK {
     public static void main(String[] args) {
         int[] arr = {2,7,11,15};
         int k = 9;
