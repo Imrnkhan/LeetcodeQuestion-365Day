@@ -24,3 +24,8 @@ public class AnagramCheck {
         return Arrays.equals(a1,a2) ;
     }
 }
+
+
+//1 step = char  to convert ToCharArray
+//2 step = Arrays sort
+//3 step = check krna Arrays.equals(a1.a2)
