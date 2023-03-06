@@ -12,6 +12,9 @@ public class BeyondFactorial {
         return test(n-1)+Math.log(n);
     }
 }
+
+
+
 /*
 this is return thr factorial return value in double
  */
