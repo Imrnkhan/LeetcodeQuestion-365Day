@@ -6,11 +6,14 @@ import java.util.List;
 
 public class Array_to_Arraylist {
     public static void main(String[] args) {
-        String[] geeks = {"Rahul", "Utkarsh",
-                "Shubham", "Neelam"};
-        List<String> hs = new ArrayList<>();
-        hs = Arrays.asList(geeks);
-        System.out.println(hs);
+        int[] arr = {1,2,3,4,5,6};
+
+        ArrayList<Integer> hs = new ArrayList<Integer>();
+       for(int i =0;i<arr.length;i++){
+           hs.add(arr[i]);
+
+       }
+           System.out.println(hs);
     }
 }
 
