@@ -2,7 +2,7 @@ package BinarySearchProblem;
 
 import java.util.*;
 
-public class IntersactionTwoArray {
+public class IntersactionTwoArrayUniuqe {
     public static void main(String[] args) {
         int [] arr1 = {1,2,2,1}, arr2 = {2,2};
         System.out.println(Arrays.toString(test(arr1, arr2)));
