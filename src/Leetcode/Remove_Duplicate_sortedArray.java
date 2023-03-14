@@ -17,6 +17,7 @@ public class Remove_Duplicate_sortedArray {
            }
         }
         return ans+1 ;   // duplicate size of element
+
     }
 }
 

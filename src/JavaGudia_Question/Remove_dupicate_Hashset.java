@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Remove_dupicate_Hashset {
     public static void main(String[] args) {
-        int[] arr = {52,14,65,1,2,3,5,6,2,3,6,4,8,};
+        int[] arr = {52,14,65,1,2,3,5,6,2,3,6,4,8,8};
 
       System.out.println(Duplicate(arr));
 
