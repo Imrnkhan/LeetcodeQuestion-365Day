@@ -21,7 +21,7 @@ class RemoveDuplicatesExample3
     //main() method start
     public static void main(String args[])
     {
-        String str = "manmohan";
+        String str = "manmohmamaan";   //
         //Create string variable with default value
         //removeDuplicates() method by passing the string as an argument
         removeDuplicates(str);

@@ -13,7 +13,7 @@ public class TwoSum {
                 }
 
     public static String test(int[] nums, int target) {
-        HashMap<Integer, Integer> tracker = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> tracker = new HashMap();
         int len = nums.length;
         for(int i = 0; i < len; i++){
             if(tracker.containsKey(nums[i])){

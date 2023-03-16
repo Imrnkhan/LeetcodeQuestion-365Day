@@ -3,9 +3,9 @@ package JavaImportant50Question;
 import java.util.HashSet;
 import java.util.Set;
 
-public class FindDuplicate {
+public class FindAllDuplicate {
     public static void main(String[] args) {
-        int[] arr = {1,3,2,4,5,3,2};
+        int[] arr = {1,3,2,4,5,3,2,2,4};
         System.out.println(test(arr));
     }
     public static Set<Integer> test(int[] arr){
@@ -22,3 +22,4 @@ public class FindDuplicate {
 }
 // tiime compl = O(n)
 //space = O(1)
+

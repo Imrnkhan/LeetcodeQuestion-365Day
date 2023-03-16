@@ -21,3 +21,11 @@ public class CountEachNumberFrequency {
         return frequencyMap;
     }
 }
+
+
+
+//Another way
+/*
+
+
+ */
