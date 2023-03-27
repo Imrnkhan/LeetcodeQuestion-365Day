@@ -5,7 +5,8 @@ import java.util.Set;
 
 public class StringDuplicate {
     public static void main(String[] args) {
-        String str = "Leetcode";
+        String str = "bcabc";
+
 
         System.out.println(test(str));
     }
