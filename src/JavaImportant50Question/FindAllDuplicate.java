@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class FindAllDuplicate {
     public static void main(String[] args) {
-        int[] arr = {1,3,2,4,5,3,2,2,4};
+        int[] arr = {4,3,2,7,8,2,3,1};
         System.out.println(test(arr));
     }
     public static Set<Integer> test(int[] arr){
