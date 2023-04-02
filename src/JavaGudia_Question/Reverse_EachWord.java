@@ -20,3 +20,19 @@ public class Reverse_EachWord {
         System.out.println(ans);
     }
 }
+
+
+//another way O(n)
+
+//public static String reverseWords(String s) {
+//    StringBuilder sb = new StringBuilder();
+//    Stack<String> stack = new Stack<>();
+//    String[] words = s.split(" ");
+//    for (String word : words) {
+//        stack.push(word);
+//    }
+//    while (!stack.isEmpty()) {
+//        sb.append(stack.pop()).append(" ");
+//    }
+//    return sb.toString().trim();
+//}
