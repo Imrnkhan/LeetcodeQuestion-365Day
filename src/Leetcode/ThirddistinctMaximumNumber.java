@@ -20,7 +20,7 @@ public class ThirddistinctMaximumNumber {
         if(list.size()<3){                                      // chota hi 3 se
             return list.get(0);
         }
-        return list.get(2);                    //3rd maximum
+        return list.get(2);                    //3rd coemaximum
     }
 }
 
