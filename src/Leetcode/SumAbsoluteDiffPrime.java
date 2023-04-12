@@ -29,3 +29,4 @@ public class SumAbsoluteDiffPrime {
     }
 }
 
+//2+4+11+3+5+4+9+7= 45
