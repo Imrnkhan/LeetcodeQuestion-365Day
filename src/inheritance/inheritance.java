@@ -20,3 +20,56 @@ class employee extends inheritance{
 
 }
     }
+
+
+
+
+    /*
+    public class Animal {
+    protected String name;
+
+    public Animal(String name) {
+        this.name = name;
+    }
+
+    public void makeSound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+
+public class Dog extends Animal {
+    public Dog(String name) {
+        super(name);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Bark bark!");
+    }
+}
+
+public class Cat extends Animal {
+    public Cat(String name) {
+        super(name);
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Meow!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal animal = new Animal("Generic animal");
+        animal.makeSound(); // prints "Some generic animal sound"
+
+        Dog dog = new Dog("Fido");
+        dog.makeSound(); // prints "Bark bark!"
+
+        Cat cat = new Cat("Whiskers");
+        cat.makeSound(); // prints "Meow!"
+    }
+}
+
+     */
