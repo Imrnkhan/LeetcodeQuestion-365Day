@@ -16,3 +16,6 @@ public class ployprishim {
     }
 }
 
+
+//Defining more than one functionality with the same name in the same class is known as
+//polymorphism.

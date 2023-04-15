@@ -25,3 +25,5 @@ public class OverloadStaticMethodExample1 {
         // class new varible = new obj class name pass argument value
     }
 }
+
+//method name same but perameter are diff

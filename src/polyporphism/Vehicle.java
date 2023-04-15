@@ -22,3 +22,4 @@ package polyporphism;
         }
     }
 
+//same method name and same perameter
