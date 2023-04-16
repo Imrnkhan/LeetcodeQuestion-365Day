@@ -1,34 +1,31 @@
-//package Final_Keyboard;
+package Final_Keyboard;
+
+//class Study{
 //
-//   final class final_class {
-//
-//
-//    class honda extends final_class{
-//        void running(){
-//            System.out.println("rumming method");
-//
-//        }
-//
-//        public static void main(String[] args) {
-//           honda h1 = new honda();
-//            h1.running();
-//
-//
-//
-//        }
+//    final int capacity=50;
+//    void display(){
+//        capacity=60;
+//    }
+//    public static void main(String args[]){
+//        Study obj=new Study();
+//        obj.display();
 //    }
 //}
+
+
+//this is give compiler error because cannot change the value of when using final  keyword.
+
 //
 ////
-////final class Bike{}
-////
-////class Honda1 extends Bike{
-////    void run(){
-////    System.out.println("running safely with 100kmph");
-////    }
-////
-////    public static void main(String args[]){
-////        Honda1 honda= new Honda1();
-////        honda.run();
-////    }
-////}
+//final class Bike{}
+//
+//class Honda1 extends Bike{
+//    void run(){
+//    System.out.println("running safely with 100kmph");
+//    }
+//
+//    public static void main(String args[]){
+//        Honda1 honda= new Honda1();
+//        honda.run();
+//    }
+//}
