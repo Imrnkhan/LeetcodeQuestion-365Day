@@ -1,22 +1,26 @@
 package upcasting_downcasting;
 
-public class upcasting_parent {
-    void display(){
-        System.out.println("upcating method....");
+class test{                               ///parent class
+    void run(){
+        System.out.println(" parent  method running");
     }
+}
+class chid extends test{                    //child class
+    void run(){
+        System.out.println(" child class running ");
+    }
+    public static void main(String args[]){
+        test b = new chid();//upcasting
+        b.run(); //
+    }
+}
 
+/*
+class A{ //Parent class
+--
 }
-class child extends upcasting_parent{
-    void display(){
-        System.out.println("child method..");
-    }
+class B extends A{ //Child class
+--
 }
-class casting {
-    public static void main(String[] args) {
-        child ch = new child();   // these thing are the same work
-        ch.display();
-        //other main aproch on the upcasting
-        upcasting_parent hs = (upcasting_parent) new child();
-        hs.display();
-    }
-}
+A a=new B();//upcasting, this is only possible if B class is a child class of A
+ */

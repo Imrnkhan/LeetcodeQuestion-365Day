@@ -30,7 +30,23 @@ public class CountsPrime {
 }
 
 
-
+/*
+class Solution {
+    public int countPrimes(int n) {
+    boolean[] primes = new boolean[n];
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        if (!primes[i]) {
+            count++;
+            for (int j = i * 2; j < n; j += i) {
+                primes[j] = true;
+            }
+        }
+    }
+    return count;
+}
+}
+ */
 
 
 /*

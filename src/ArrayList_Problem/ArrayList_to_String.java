@@ -11,20 +11,8 @@ public class ArrayList_to_String {
             hs.add("delhi");
             hs.add("pune");
             hs.add("best");
-        System.out.println(hs);
+            String str = hs.toString();
+        System.out.println(str);
 
-//        other way===========================
-        String vb = String.join(" ",hs);
-        System.out.println(vb);
-//==============================================
-
-        StringBuffer sb = new StringBuffer();
-
-        for(String str:hs){
-
-            sb.append(str+" ");
-        }
-        String mystr = sb.toString();
-        System.out.println(mystr);
     }
 }

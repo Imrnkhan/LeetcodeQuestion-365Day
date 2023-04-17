@@ -25,3 +25,46 @@ public class age_check_vote {
         }
     }
 }
+
+
+
+
+/*
+
+
+
+Write a class Main, in which define a static method called getEligibility.
+the return type of this method should be void and it takes one parameter as int age.
+If the supplied age is less than 18 then throw an ArithmeticException class object with the
+message “Invalid age”.
+If the age is greater than 18 then print the message “You are Eligible”.
+from the main method of Main class, prompt the user to Enter the age using Scanner class.
+call the getEligibility method inside the try-catch block from the main method by passing
+user-entered age
+
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void getEligibility(int age) {
+        if (age < 18) {
+            throw new ArithmeticException("Invalid age");
+        } else {
+            System.out.println("You are Eligible");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        try {
+            System.out.print("Enter your age: ");
+            int age = scanner.nextInt();
+            getEligibility(age);
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
+
+ */

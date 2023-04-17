@@ -9,9 +9,7 @@ public class String_to_Arraylist {
         String res = "Study Tonight com";
         String dc[] = res.split(" ");
 
-        System.out.println(dc);
-        List<String> hs = new ArrayList<>();
-        hs = Arrays.asList(dc);
+        List<String> hs = new ArrayList<>(Arrays.asList(dc));
         System.out.println(hs);
 
     }
