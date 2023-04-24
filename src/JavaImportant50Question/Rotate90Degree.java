@@ -13,7 +13,7 @@ public class Rotate90Degree {
     public static void test(int[][] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
             String row = "";
-            for (int j = 0; j < arr[i].length; j++) {
+            for (int j = 0; j < arr.length; j++) {
                 row += arr[j][i] + " ";
             }
             System.out.println(row);
@@ -22,3 +22,4 @@ public class Rotate90Degree {
 
 
 }
+
