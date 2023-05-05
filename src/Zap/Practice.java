@@ -2,8 +2,17 @@ package Zap;
 
 public class Practice {
     public static void main(String[] args) {
-      int[] arr1 = {2,4,5};
-      int[] arr2 = {5,7,8};
+        int num = 14;
 
+        System.out.println(isPerfectSquare(num));
+    }
+
+    public static boolean isPerfectSquare(int num) {
+        int i = 1;
+        while (num > 0) {
+            num -= i;
+            i += 2;
+        }
+        return num == 0;
     }
 }
