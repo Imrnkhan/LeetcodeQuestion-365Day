@@ -12,10 +12,20 @@ public class ValidPerfectSquare {
             num= num-i;
             i= i+2;
         }
-        return num==0;
+        if(num==0){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
 
+//         16 - 1 = 15  => num = 16, i= 1
+//        15 - 3 = 12   => num = 15, i = 3;
+//        12 - 5 = 7    => num = 12, i =5;
+//        7 - 7 = 0      => num = 7, i =7
+// conditon true when in last num ==0
 
 
 
