@@ -2,13 +2,17 @@ package Leetcode;
 
 public class SquareRoot {
     public static void main(String[] args) {
-        int arr = 4;
+        int arr = 8;
         System.out.println(test(arr));
     }
     public static int test(int arr){
         return (int) Math.sqrt(arr);
     }
 }
+
+// any number squre root
+//exp  - 8=> 2
+// 2*2*2= >8
 
 
 /*
