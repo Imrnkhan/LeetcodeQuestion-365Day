@@ -17,6 +17,16 @@ public class ArrangingCoins {
 
 
 
+//step  1=> i =1
+// and loop for check n>i condition true
+// again n-1 => 5-1 => 4
+// and i++ => i=2  now
+// again condition and check n>=i true
+// and n-2 => 4-2 => 2
+// now i++ => i=3
+// again check loop  condtion false
+// now i-2 => 3-1 => 2 ans
+
 
 /*
 441. Arranging Coins
