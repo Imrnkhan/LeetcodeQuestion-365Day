@@ -1,6 +1,6 @@
 package Coding_Question;
 
-public class feacture {
+public class feacturejava {
 
 /*
     Summary of #Java 8,9,10,11,12,13,14,15,16,17,18,19 features.
