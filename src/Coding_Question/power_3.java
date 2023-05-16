@@ -2,7 +2,7 @@ package Coding_Question;
 
 public class power_3 {
     public static void main(String[] args) {
-        int num = 27;
+        int num = 32;
         System.out.println(isPowerOfThree(num));
 
     }
