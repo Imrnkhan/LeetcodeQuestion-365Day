@@ -28,6 +28,8 @@ public class MaximumFrequencyCount {
     }
 }
 
+//every element count and print max element
+
 
 //another solution
 //if find minimum use
