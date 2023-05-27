@@ -33,6 +33,8 @@ public class LongestSequenceSum {
 
 
 
+// esa mai arr 1st of sum krna hi or less than or print the arr size
+
 
 /*
 2389. Longest Subsequence With Limited Sum
