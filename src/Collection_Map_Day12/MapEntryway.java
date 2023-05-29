@@ -1,14 +1,10 @@
-package Zap;
+package Collection_Map_Day12;
 
+import java.util.HashMap;
+import java.util.Map;
 
-import java.util.*;
-
-public class Practice {
+public class MapEntryway {
     public static void main(String[] args) {
-//        int[] arr = {9,4,1,7};
-//        List<Integer> numbers = new ArrayList<>(Arrays.asList(9, 4, 1, 7,4,4,4,4));
-//        int frequency = Collections.frequency(numbers, 4);
-//        System.out.println(frequency);
 
         Map<String, Integer> scores = new HashMap<>();
         scores.put("Alice", 90);
@@ -22,14 +18,6 @@ public class Practice {
 
             System.out.println("Name: " + name + ", Score: " + score);
         }
-
-
     }
-
 }
-
-
-
-
-
 
