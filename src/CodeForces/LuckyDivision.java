@@ -1,10 +1,52 @@
 package CodeForces;
 
+import javax.crypto.spec.PSource;
+
 public class LuckyDivision {
     public static void main(String[] args) {
-
+        int num = 47;
+        if(isLuckyNumber(num)){
+            System.out.println("yes");
+        }
+        else {
+            System.out.println("No");
+        }
     }
-}
+        public static boolean isLuckyNumber(int n) {
+            String s = Integer.toString(n);
+            for (int i = 0; i < s.length(); i++)
+                if (s.charAt(i) != '4' && s.charAt(i) != '7')
+                    return false;
+
+            return true;
+        }
+    }
+
+
+
+    //Another way but may be diff
+
+//        if (isAlmostLucky(num)) {
+//            System.out.println("YES");
+//        } else {
+//            System.out.println("NO");
+//        }
+//    }
+//
+//    public static boolean isAlmostLucky(int num) {
+//        if (num % 4 == 0 || num % 7 == 0 || num % 47 == 0) {
+//            return true;
+//        }
+//        return false;
+
+
+
+
+
+
+
+
+
 
 
 /*
