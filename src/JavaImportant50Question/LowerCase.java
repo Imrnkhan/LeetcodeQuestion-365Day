@@ -15,3 +15,6 @@ public class LowerCase {
     }
 }
 
+
+
+// Uppercase to lowercase all word
