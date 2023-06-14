@@ -18,6 +18,35 @@ public class Buy_SellStock {
 }
 
 
+/*
+class Solution {
+	int maxProfit(int[] prices) {
+	    int profit = 0, minPrice = Integer.MAX_VALUE;
+		for(int i = 0; i < prices.length; i++) {
+			minPrice = Math.min(minPrice, prices[i]);
+			profit = Math.max(profit, prices[i] - minPrice);
+		}
+		return profit;
+	}
+}
+
+
+
+
+class Solution {
+	int maxProfit(int[] prices) {
+	    int profit = 0;
+		for(int i = 0; i < prices.length; i++) {
+			for(int j = i + 1; j < prices.length; j++) {
+				profit = Math.max(profit, prices[j] - prices[i]);
+			}
+		}
+		return profit;
+	}
+}
+
+ */
+
 
 //    // O(n^2) time, O(1) space TLE upper wala
 
