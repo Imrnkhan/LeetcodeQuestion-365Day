@@ -1,6 +1,7 @@
 package Zap;
 
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 //public class Practice {
@@ -29,33 +30,23 @@ import java.util.*;
 //}
 //
 
-import java.util.HashSet;
-import java.util.Set;
+public class practice {
 
-    public class practice {
-        public static int countUniqueSubstrings(String str, int k) {
-            int n = str.length();
-            Set<String> uniqueSubstrings = new HashSet<>();
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
 
-            for (int i = 0; i <= n - k; i++) {
-                String substring = str.substring(i, i + k);
-                uniqueSubstrings.add(substring);
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j <= arr.length; j++) {
+                int[] subarray = Arrays.copyOfRange(arr, i, j);
+                printSubarray(subarray);
             }
-
-            return uniqueSubstrings.size();
-        }
-
-        public static void main(String[] args) {
-            String str = "ababc";
-            int k = 3;
-
-            int count = countUniqueSubstrings(str, k);
-            System.out.println(count);
         }
     }
 
-
-
-
-
-
+    public static void printSubarray(int[] subarray) {
+        for (int i = 0; i < subarray.length; i++) {
+            System.out.print(subarray[i] + " ");
+        }
+        System.out.println();
+    }
+}
