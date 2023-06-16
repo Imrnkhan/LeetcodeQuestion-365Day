@@ -23,4 +23,7 @@ public class Next_Leep {
 
 
 // 1. point every time add year+1
-// 2. than goes to when count = n ho jye 
+// 2. than goes to when count = n ho jye
+// every year count start date to end given year
+// n = 15 is the start 2020 to next 15 count
+// next - 15 year count and print

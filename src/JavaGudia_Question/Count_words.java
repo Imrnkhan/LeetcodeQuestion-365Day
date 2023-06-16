@@ -11,7 +11,7 @@ public class Count_words {
         for (int i = 0; i < str.length(); i++) {
             if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' ')) {
 
-//                if ((str.charAt(i) == ' ')   is also work
+//                if ((str.charAt(i) == ' ')){   //is also work
                 count++;
             }
         }

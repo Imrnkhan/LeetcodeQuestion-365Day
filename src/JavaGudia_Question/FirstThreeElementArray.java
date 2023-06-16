@@ -16,7 +16,7 @@ public class FirstThreeElementArray {
 
 
 //this is the index basic
-// given arr and start pont,end point
+// given arr and start point,end point
 
 //
 //import java.util.Arrays;
