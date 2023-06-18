@@ -16,6 +16,7 @@ public class OverloadStaticMethodExample1 {
     }
     //main method
     public static void main(String args[]) {
+
 //calling static method by using the class name
         OverloadStaticMethodExample1.display();
         OverloadStaticMethodExample1.display(160);
@@ -27,3 +28,4 @@ public class OverloadStaticMethodExample1 {
 }
 
 //method name same but perameter are diff
+//and when static methood call by 3 way
