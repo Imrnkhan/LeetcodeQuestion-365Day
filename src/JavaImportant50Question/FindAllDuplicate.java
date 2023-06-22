@@ -23,5 +23,7 @@ public class FindAllDuplicate {
 // tiime compl = O(n)
 //space = O(1)
 
+//print  only duplicate value in arr
+
 
 
