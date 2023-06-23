@@ -36,6 +36,8 @@ public class ReverseArray {
 //time & space = 0(n)
 
 //
+
+// use another way
 //import java.util.Scanner;
 //
 //public class Main {
