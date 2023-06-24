@@ -29,3 +29,14 @@ public class AnagramCheck {
 //1 step = char  to convert ToCharArray
 //2 step = Arrays sort
 //3 step = check krna Arrays.equals(a1.a2)
+//if  check angram by space use js
+
+
+// var s1 = a.split("").sort().join("").trim()
+//    var s2 = b.split("").sort().join("").trim()
+//    if(s1==s2){
+//         console.log("True")
+//     }
+//     else{
+//         console.log("False")
+//     }
