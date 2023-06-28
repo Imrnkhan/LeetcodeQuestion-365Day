@@ -22,6 +22,8 @@ public class MaximumProductSubArray {
 }
 
 
+// this is the full print sub araray
+
 //all subarray
 //        2
 //        2 3
