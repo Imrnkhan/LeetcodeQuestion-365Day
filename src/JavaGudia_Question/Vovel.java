@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Vovel {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter input ");
-        String str = sc.next();
+
+        String str = "Leetcode";
 
 
         if (vovel(str))
