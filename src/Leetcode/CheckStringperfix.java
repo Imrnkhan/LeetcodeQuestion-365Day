@@ -19,7 +19,10 @@ public class CheckStringperfix {
     }
 }
 
+//perfix
+//hello -> h he hel hell hello
 
+// and compare string array
 
 
 
