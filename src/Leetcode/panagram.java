@@ -23,3 +23,10 @@ public class panagram {
         return false;
     }
 }
+
+
+//1st remove the duplicate use hashset
+//2nd start loop 0 to length
+//3rd and add str.char(i)
+//4th and compare size==26 alphabate
+//5th return true and false
