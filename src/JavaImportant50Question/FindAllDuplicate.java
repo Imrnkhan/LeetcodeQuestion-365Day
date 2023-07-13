@@ -25,5 +25,28 @@ public class FindAllDuplicate {
 
 //print  only duplicate value in arr
 
+//
+//    public static ArrayList<Integer> duplicates(int arr[], int N) {
+//        HashSet<Integer> set = new HashSet<>();
+//        HashSet<Integer> duplicatesSet = new HashSet<>();
+//
+//        for (int i = 0; i < N; i++) {
+//
+//            if (!set.add(arr[i])) {
+//                duplicatesSet.add(arr[i]);
+//            }
+//        }
+//
+//        List<Integer> result = new ArrayList<>(duplicatesSet);
+//
+//        if (result.isEmpty()) {
+//            result.add(-1);
+//        }
+//
+//        Collections.sort(result); // Sort the result in ascending order
+//
+//        return new ArrayList<>(result);
+//    }
 
 
+//if not fount return -1
