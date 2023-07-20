@@ -2,7 +2,7 @@ package Zap;
 
 public class StringReverse {
     public static void main(String[] args) {
-        String str = "codecode";
+        String str = "Geeks";
 //        System.out.println(test(str));
         test(str);
     }
@@ -21,5 +21,14 @@ public class StringReverse {
         StringBuilder rev = new StringBuilder(str);
         rev.reverse();
         System.out.println(rev.toString());
+
     }
 }
+
+//    StringBuilder reversed = new StringBuilder();
+//
+//        for (int i = num.length() - 1; i >= 0; i--) {
+//                reversed.append(num.charAt(i));
+//                }
+//
+//                return reversed.toString();
