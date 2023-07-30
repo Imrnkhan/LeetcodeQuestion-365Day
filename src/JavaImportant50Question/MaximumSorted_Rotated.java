@@ -2,7 +2,7 @@ package JavaImportant50Question;
 
 public class MaximumSorted_Rotated {
     public static void main(String[] args) {
-        int[] arr = {1,3,5};
+        int[] arr =  {1,2,3,4,5};
         System.out.println(findMax(arr));
     }
 
@@ -19,10 +19,8 @@ public class MaximumSorted_Rotated {
             }
         }
 
-        return arr[low];
+        return arr[high];
     }
-
-
 }
 
 //explain
@@ -37,3 +35,12 @@ than mid and high => 2=2 both are equal than print left
 arr[left] = 2 index is max = 5 elemnt
 
  */
+//
+//    // Create a copy of the original array to avoid modifying the input array
+//    int[] sortedArr = Arrays.copyOf(nums, nums.length);
+//
+//// Sort the copy in ascending order
+//        Arrays.sort(sortedArr);
+//
+//                // Return the last element of the sorted array, which will be the maximum element
+//                return sortedArr[nums.length - 1];
