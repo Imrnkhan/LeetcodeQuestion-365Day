@@ -22,3 +22,5 @@ public class Minimize_the_Heights {
 // arr[0]+k => 3+3= 6
 //arr[arr.length-1]-k => 20-3 = 17
 // 17-6 = 11
+
+//this Question gfg but not sumbit
