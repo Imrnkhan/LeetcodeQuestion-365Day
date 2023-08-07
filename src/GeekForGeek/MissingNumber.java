@@ -19,3 +19,8 @@ public class MissingNumber {
         return totalSum - arraySum;
     }
 }
+
+//total = 5*(5+1)/2= 30/2 = 15
+// sum total = 11
+
+// 15-11 =  4 ans
