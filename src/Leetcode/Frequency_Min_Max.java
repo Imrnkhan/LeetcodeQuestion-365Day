@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class Frequency_Min_Max {
     public static void main(String[] args) {
         int[] arr = {1, 2, 2, 3, 3, 3, 5};
-        System.out.println(test(arr));
+//        System.out.println(test(arr));
         Map<Integer, Integer> frequency = test(arr);
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
