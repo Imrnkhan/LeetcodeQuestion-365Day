@@ -27,7 +27,7 @@ public class AllSubArrays {
 
 // another way 3 lopp subaaray print n2
 /*
-for (int i = 0; i < n; i++) {
+          for (int i = 0; i < n; i++) {
             for (int j = i; j < n; j++) {
                 for (int k = i; k <= j; k++) {
                     System.out.print(nums[k] + " ");
