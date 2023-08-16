@@ -6,13 +6,13 @@ public class Buy_SellStock {
         System.out.println(test(arr));
     }
     public static int  test(int[] arr){
-     int profit = 0;
-     for(int i =0;i<arr.length;i++){
-         for(int j =i;j>=0;j--){
-             profit = Math.max(profit,arr[i]-arr[j]);
-         }
-     }
-     return profit;
+        int profit = 0;
+        int minPrice = Integer.MAX_VALUE;
+        for(int i = 0; i < arr.length; i++) {
+            minPrice = Math.min(minPrice, arr[i]);
+            profit = Math.max(profit, arr[i] - minPrice);
+        }
+        return profit;
 
     }
 }
@@ -21,7 +21,8 @@ public class Buy_SellStock {
 /*
 class Solution {
 	int maxProfit(int[] prices) {
-	    int profit = 0, minPrice = Integer.MAX_VALUE;
+	    int profit = 0;
+	    int minPrice = Integer.MAX_VALUE;
 		for(int i = 0; i < prices.length; i++) {
 			minPrice = Math.min(minPrice, prices[i]);
 			profit = Math.max(profit, prices[i] - minPrice);
