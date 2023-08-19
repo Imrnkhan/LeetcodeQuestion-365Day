@@ -23,6 +23,25 @@ public class FindFristDuplicateNumber {
 
 
 
+//    HashSet<Integer> set = new HashSet<>();
+//
+//        for (int num : arr) {
+//                if (!set.contains(num)) {
+//                set.add(num);
+//                } else {
+//                set.remove(num);
+//                }
+//                }
+//
+//                if (set.size() == 1) {
+//                for (int num : set) {
+//                return num;
+//                }
+//                }
+//
+//                return -1; // No sin
+
+
 // this algo work on the frist come duplicate single number
 
 /*
