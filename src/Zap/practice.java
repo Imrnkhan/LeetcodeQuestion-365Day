@@ -30,23 +30,56 @@ import java.util.*;
 //}
 //
 
+//public class practice {
+//
+//    public static void main(String[] args) {
+//        int[] arr = {1, 2, 3};
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j <= arr.length; j++) {
+//                int[] subarray = Arrays.copyOfRange(arr, i, j);
+//                printSubarray(subarray);
+//            }
+//        }
+//    }
+//
+//    public static void printSubarray(int[] subarray) {
+//        for (int i = 0; i < subarray.length; i++) {
+//            System.out.print(subarray[i] + " ");
+//        }
+//        System.out.println();
+//    }
+//}
+
+
+import java.util.*;
+
 public class practice {
-
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3};
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j <= arr.length; j++) {
-                int[] subarray = Arrays.copyOfRange(arr, i, j);
-                printSubarray(subarray);
+        String[] str = {"Mary","John","Emma"};
+        int[] arr = {180,165,170};
+
+        System.out.println(Arrays.toString(test(str, arr)));
+    }
+    public static String[] test(String[] names, int[] heights) {
+
+        for(int i =0;i<heights.length;i++){
+            for(int j = i+1;j<heights.length;j++){
+                if(heights[i]<heights[j]){
+                    int temp = heights[j];
+                    heights[j] = heights[i];
+                    heights[i] = temp;
+
+                    //sort name decending
+
+                    String res = names[j];
+                    names[j] = names[i];
+                    names[i] = res;
+
+                }
             }
         }
-    }
-
-    public static void printSubarray(int[] subarray) {
-        for (int i = 0; i < subarray.length; i++) {
-            System.out.print(subarray[i] + " ");
-        }
-        System.out.println();
+        return names;
     }
 }
