@@ -27,3 +27,28 @@ public class ArrayList_toArray{
     }
 }
 
+
+/*
+import java.util.ArrayList;
+
+public class ArrayListToArray {
+    public static void main(String[] args) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+
+        // Convert ArrayList to int array
+        int[] array = new int[arrayList.size()];
+        for (int i = 0; i < arrayList.size(); i++) {
+            array[i] = arrayList.get(i);
+        }
+
+        // Print the int array
+        for (int i =0;i<array.length;i++) {
+            System.out.print(array[i] + " ");
+        }
+    }
+}
+
+ */
