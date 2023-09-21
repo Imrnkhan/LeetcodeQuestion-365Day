@@ -8,6 +8,7 @@ public class Remove_Duplicate_Hashmap {
         int[] arr = {52,14,65,1,2,3,5,6,2,3,6,4,8,};
         Duplicate(arr);
 
+
     }
     public static void Duplicate(int[] arr){
         Map<Integer,Integer> hs = new HashMap<>();
