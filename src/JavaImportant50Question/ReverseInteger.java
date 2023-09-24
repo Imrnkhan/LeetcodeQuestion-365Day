@@ -19,3 +19,31 @@ public class ReverseInteger {
 
     }
 }
+
+
+
+/*
+another way 1
+
+    public int reverseInteger(int num) {
+    String reversedString = new StringBuilder(String.valueOf(num)).reverse().toString();
+    return Integer.parseInt(reversedString);
+}
+
+
+
+
+
+public int reverseInteger(int num) {
+    int reversedNum = 0;
+
+    while (num != 0) {
+        int digit = num % 10;
+        reversedNum = reversedNum * 10 + digit;
+        num = num / 10;
+    }
+
+    return reversedNum;
+}
+
+ */
