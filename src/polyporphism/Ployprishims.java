@@ -1,6 +1,6 @@
 package polyporphism;
 
-public class ployprishim {
+public class Ployprishims {
     void funA(byte b){
         System.out.println("funA byte of method");
     }
@@ -9,7 +9,7 @@ public class ployprishim {
     }
 
     public static void main(String[] args) {
-        ployprishim ps = new ployprishim();
+        Ployprishims ps = new Ployprishims();
 //        byte bx = 20;
 //        ps.funA(bx);    // it will give the priority to the nearest one
         ps.funB(20);
