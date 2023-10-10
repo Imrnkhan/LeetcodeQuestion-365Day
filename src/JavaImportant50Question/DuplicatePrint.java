@@ -22,3 +22,5 @@ public class DuplicatePrint {
          }
     }
 }
+
+// print all duplivate number
