@@ -18,3 +18,6 @@ class next extends abstractClass{
         abs.test();
     }
 }
+
+
+// abstract and interface main diff abs class extend and interface implement
