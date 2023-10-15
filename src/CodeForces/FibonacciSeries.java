@@ -15,7 +15,6 @@ public class FibonacciSeries {
             secondNumber = nextNumber;
         }
     }
-}
 
 
 
@@ -43,6 +42,6 @@ public class FibonacciSeries {
     }
 }
 
-
+0 1 1 2 3 5 8 13 21 show on
 
  */
