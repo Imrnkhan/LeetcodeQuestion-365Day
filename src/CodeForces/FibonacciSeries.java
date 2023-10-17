@@ -19,7 +19,7 @@ public class FibonacciSeries {
 
 
 
-/// this fib series in line way
+/// this fib series in line way next line
 
 //another way 
 
