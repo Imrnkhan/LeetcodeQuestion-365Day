@@ -20,3 +20,6 @@ public class FactorialDigitCount {
         return count; // Return the count of digits in the factorial
     }
 }
+
+
+//exp 5  ka factorial 120 and digit cooount = 3
