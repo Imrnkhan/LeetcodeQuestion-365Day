@@ -14,6 +14,9 @@ public class LastTwoDigit {
 }
 
 
+
+// 5*7*2*4 = 280
+// last digit 80
 /*
 Given 4 numbers A
 , B
