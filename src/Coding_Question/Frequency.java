@@ -23,3 +23,7 @@ public class Frequency {
         return map;
     }
 }
+
+
+
+// count al of digit
