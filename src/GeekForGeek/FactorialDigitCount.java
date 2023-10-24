@@ -23,4 +23,4 @@ public class FactorialDigitCount {
 
 
 //exp 5  ka factorial 120 and digit cooount = 3
-//
+//    //
