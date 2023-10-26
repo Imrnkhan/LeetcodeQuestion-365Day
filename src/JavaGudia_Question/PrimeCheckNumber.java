@@ -1,6 +1,6 @@
 package JavaGudia_Question;
 
-public class PrimeCheckNumber {
+public class  PrimeCheckNumber {
     public static void main(String[] args) {
         int num = 19;
         System.out.println(test(num));
