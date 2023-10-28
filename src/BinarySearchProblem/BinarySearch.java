@@ -28,6 +28,8 @@ public class BinarySearch {
 }
 
 
+//find the arr in wich position prsnt
+
 
 /*
 704. Binary Search
