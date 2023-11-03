@@ -22,4 +22,4 @@ package polyporphism;
         }
     }
 
-//same method name and same perameter
+//same method name and same perameter in overriding method
