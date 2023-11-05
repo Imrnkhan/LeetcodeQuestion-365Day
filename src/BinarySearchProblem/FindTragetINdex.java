@@ -23,7 +23,7 @@ public class FindTragetINdex {
     }
 }
 
-
+  // sort the arr and find the target index of element 
 /*
 2089. Find Target Indices After Sorting Array
 Easy
