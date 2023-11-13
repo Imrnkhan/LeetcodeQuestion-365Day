@@ -16,3 +16,6 @@ public class PalindromeString {
         return true;
     }
 }
+
+//check palindrome in two pointer way
+//its means both string check both side
