@@ -23,6 +23,8 @@ public class AllDuplicate {
 }
 
 
+// print all duplicate number of array
+
 /*
 442. Find All Duplicates in an Array
 Medium
