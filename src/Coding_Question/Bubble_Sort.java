@@ -22,3 +22,5 @@ public class Bubble_Sort {
 
     }
 }
+
+///o(n2) two loop use and next big number
