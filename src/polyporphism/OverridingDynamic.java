@@ -23,3 +23,4 @@ package polyporphism;
     }
 
 //same method name and same perameter in overriding method
+// this method extend one class to another class
