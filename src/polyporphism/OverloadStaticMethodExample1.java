@@ -29,3 +29,4 @@ public class OverloadStaticMethodExample1 {
 
 //method name same but perameter are diff
 //and when static methood call by 3 way
+// direct way and create obj
