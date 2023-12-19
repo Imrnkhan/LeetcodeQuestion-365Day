@@ -32,3 +32,6 @@ class Access{
         System.out.println(fg.getD());
     }
 }
+
+
+///acces on direct in main method and call private varible
