@@ -21,7 +21,7 @@ public class FindFristDuplicateNumber {
     }
 }
 
-
+//it works on single duplicate nu find
 
 //    HashSet<Integer> set = new HashSet<>();
 //
