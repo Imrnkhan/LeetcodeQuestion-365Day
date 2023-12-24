@@ -57,29 +57,18 @@ import java.util.*;
 public class practice {
     public static void main(String[] args) {
 
-        String[] str = {"Mary","John","Emma"};
-        int[] arr = {180,165,170};
-
-        System.out.println(Arrays.toString(test(str, arr)));
+       int []arr= {2,4,3};
+       int money =6;
+        System.out.println(test(arr,money));
     }
-    public static String[] test(String[] names, int[] heights) {
-
-        for(int i =0;i<heights.length;i++){
-            for(int j = i+1;j<heights.length;j++){
-                if(heights[i]<heights[j]){
-                    int temp = heights[j];
-                    heights[j] = heights[i];
-                    heights[i] = temp;
-
-                    //sort name decending
-
-                    String res = names[j];
-                    names[j] = names[i];
-                    names[i] = res;
-
-                }
-            }
-        }
-        return names;
+    public static int test(int[]arr,int money){
+        Arrays.sort(arr);
+   int total = arr[0]+arr[1];
+   if(total<=money){
+       return money-total;
+   }
+   else {
+       return money;
+   }
     }
 }
