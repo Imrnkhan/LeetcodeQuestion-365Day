@@ -23,7 +23,7 @@ public class AllDuplicate {
 }
 
 
-// print all duplicate number of array
+// print all duplicate number of array ki andeer jo duplicate value hi
 
 /*
 442. Find All Duplicates in an Array
