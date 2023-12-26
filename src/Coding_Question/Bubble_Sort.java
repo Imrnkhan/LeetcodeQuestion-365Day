@@ -23,5 +23,6 @@ public class Bubble_Sort {
     }
 }
 
+// sort on bubble sort way best  algrothem
 ///o(n2) two loop use and next big number
 //arr[j]>arr[j+1] = its big
