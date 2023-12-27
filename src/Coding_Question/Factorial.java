@@ -13,3 +13,6 @@ public class Factorial {
         return sum;
     }
 }
+
+
+// factiriol with brute force
