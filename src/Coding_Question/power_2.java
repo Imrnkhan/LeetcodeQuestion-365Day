@@ -18,3 +18,4 @@ public class power_2 {
 
 }
 
+//given value is power of 2 of not its check
