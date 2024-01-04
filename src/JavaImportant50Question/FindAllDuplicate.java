@@ -20,6 +20,10 @@ public class FindAllDuplicate {
         return hd;
     }
 }
+
+
+
+//use set two times and filter
 // tiime compl = O(n)
 //space = O(1)
 
