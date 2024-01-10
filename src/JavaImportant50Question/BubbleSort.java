@@ -27,3 +27,11 @@ public class BubbleSort {
 
     }
 }
+
+
+//    i is used to iterate through the array from index 0 to nums.length - 1, ensuring that
+//    every element is traversed at least once.
+//
+//        j is used within the inner loop to compare adjacent elements (at indices j and j + 1) and
+//        swap them if necessary, effectively "bubbling up" the largest element to its correct position
+//        in each iteration of the outer loop.
