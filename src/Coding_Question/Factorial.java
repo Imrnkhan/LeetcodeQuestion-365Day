@@ -15,4 +15,4 @@ public class Factorial {
 }
 
 
-// factiriol with brute force
+// factiriol with brute force this factor calculate in given array length
