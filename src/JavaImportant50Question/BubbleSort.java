@@ -5,8 +5,9 @@ import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
         int [] arr = {7,4,1,56,7,8,3,5,9};
-           test(arr);
-        System.out.println(Arrays.toString(arr));
+
+        test(arr);
+//        System.out.println(Arrays.toString(arr));   //if you declare in this side both option
 
 //        for(int i =0;i<arr.length;i++){
 //            System.out.print(arr[i]+" ");
@@ -17,14 +18,14 @@ public class BubbleSort {
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - 1 ; j++) {
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[j + 1]) {                // if you use this simple < this all element reverse way
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
             }
         }
-
+        System.out.println(Arrays.toString(arr));
     }
 }
 
@@ -35,3 +36,4 @@ public class BubbleSort {
 //        j is used within the inner loop to compare adjacent elements (at indices j and j + 1) and
 //        swap them if necessary, effectively "bubbling up" the largest element to its correct position
 //        in each iteration of the outer loop.
+//if you declare print upper and blow both option
