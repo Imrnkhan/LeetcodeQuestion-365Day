@@ -15,3 +15,5 @@ class nextInter implements InterfaceExp{
          hs.test();
     }
 }
+
+//the main diff bw both abstract use extend and interface use implement
