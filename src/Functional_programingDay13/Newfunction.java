@@ -1,9 +1,10 @@
 package Functional_programingDay13;
 
+@FunctionalInterface
 interface Funtional_interface {
     void sayHello(String name);
 }
-class x implements Funtional_interface{
+public class Newfunction implements Funtional_interface{
 
     @Override
     public void sayHello(String name) {
@@ -11,7 +12,7 @@ class x implements Funtional_interface{
     }
 
     public static void main(String[] args) {
-        Funtional_interface fs = new x();
+        Funtional_interface fs = new Newfunction ();
         fs.sayHello("admin");
         
     }
