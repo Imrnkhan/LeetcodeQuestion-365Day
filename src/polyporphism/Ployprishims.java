@@ -2,17 +2,17 @@ package polyporphism;
 
 public class Ployprishims {
     void funA(byte b){
-        System.out.println("funA byte of method");
+        System.out.println("funA1 byte of method");
     }
-    void funB(int i){
-        System.out.println("funB int of method");
+    void funA(int i){
+        System.out.println("funA2 int of method");
     }
 
     public static void main(String[] args) {
         Ployprishims ps = new Ployprishims();
 //        byte bx = 20;
 //        ps.funA(bx);    // it will give the priority to the nearest one
-        ps.funB(20);
+        ps.funA(20);
     }
 }
 
