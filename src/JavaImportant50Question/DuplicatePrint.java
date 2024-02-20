@@ -12,15 +12,15 @@ public class DuplicatePrint {
          HashSet<Integer> seen = new HashSet<>();
          HashSet<Integer> duplicates = new HashSet<>();
 
-         for (int num : arr) {
-             if (!seen.add(num)) {
+         for (int i =0;i<arr.length;i++) {
+             if (!seen.add(arr[i])) {
                  // num is a duplicate, but check if it is already in the duplicates set
-                 if (duplicates.add(num)) {
-                     System.out.print(num + " ");
+                 if (duplicates.add(arr[i])) {
+                     System.out.print(arr[i] + " ");
                  }
              }
          }
     }
 }
 
-// print all duplivate number
+// print all duplicate number
