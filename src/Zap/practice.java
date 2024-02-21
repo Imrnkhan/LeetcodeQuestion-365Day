@@ -55,20 +55,23 @@ import java.util.*;
 import java.util.*;
 
 public class practice {
-    public static void main(String[] args) {
 
-       int []arr= {2,4,3};
-       int money =6;
-        System.out.println(test(arr,money));
-    }
-    public static int test(int[]arr,int money){
-        Arrays.sort(arr);
-   int total = arr[0]+arr[1];
-   if(total<=money){
-       return money-total;
-   }
-   else {
-       return money;
-   }
-    }
+
 }
+
+//    public static void main(String[] args) {
+//
+//       int []arr= {2,4,3};
+//       int money =6;
+//        System.out.println(test(arr,money));
+//    }
+//    public static int test(int[]arr,int money){
+//        Arrays.sort(arr);
+//   int total = arr[0]+arr[1];
+//   if(total<=money){
+//       return money-total;
+//   }
+//   else {
+//       return money;
+//   }
+//    }
