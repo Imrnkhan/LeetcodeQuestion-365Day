@@ -25,4 +25,4 @@ public class PrintAllDuplicateNumber {
     }
 
 
-    //all dupliacte
+    //all dupliacte printed
