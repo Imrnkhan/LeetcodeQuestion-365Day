@@ -23,11 +23,12 @@ public class FindAllDuplicate {
 
 
 
+
 //use set two times and filter
 // tiime compl = O(n)
 //space = O(1)
 
-//print  only duplicate value in arr
+//print  only duplicate value in arr given
 
 //
 //    public static ArrayList<Integer> duplicates(int arr[], int N) {
