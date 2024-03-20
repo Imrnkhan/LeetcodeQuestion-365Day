@@ -16,7 +16,8 @@ public class AllSubString_String {
 }
 
 
-
+// use all of the start and every element incresenig order and cover all element and again
+// start next element when its end
 //subarrays are used in the context of arrays and substring in the context of strings
 /*
 a  -1
