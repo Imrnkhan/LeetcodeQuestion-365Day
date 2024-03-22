@@ -28,7 +28,7 @@ public class BinarySearch {
 }
 
 
-//find the arr in wich position prsnt
+//find the arr in which position present
 
 
 /*
