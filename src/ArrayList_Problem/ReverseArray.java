@@ -16,14 +16,12 @@ public class ReverseArray {
             int[] arr = {2, 3, 5, 5, 1};
             test(arr);
         }
-
         public static void test(int[] arr) {
             List<Integer> hs = new ArrayList<>();
 
             for (int i = 0; i < arr.length; i++) {
                 hs.add(arr[i]);
             }
-
             Collections.reverse(hs);
 
             for (int i = 0; i < arr.length; i++) {
