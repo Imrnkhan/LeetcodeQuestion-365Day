@@ -16,7 +16,7 @@ public class KMissingNumberArray {
 
         int start=0;
 
-        int end=arr.length-1;
+        int end = arr.length-1;
 
         while(start<=end){
 
@@ -35,7 +35,9 @@ public class KMissingNumberArray {
     }
 
 
-
+// the given missing array is make the sort and hole array and than counted array on positive
+// and check and count
+//es mai ham ko complete array bana hi or us ki baad ham ko missing number count krne hi
 
 
 
