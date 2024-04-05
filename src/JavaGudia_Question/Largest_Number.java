@@ -11,3 +11,6 @@ public class Largest_Number {
         System.out.println(arr[0]);          //lowest number
     }
 }
+
+
+// both number lower high
