@@ -18,3 +18,5 @@ class test{
   System.out.println(demo.getName());
  }
 }
+
+//use of getter and setter method
