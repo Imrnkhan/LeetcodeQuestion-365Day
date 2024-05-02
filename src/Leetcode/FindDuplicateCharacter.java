@@ -7,7 +7,7 @@ public class FindDuplicateCharacter {
 
 
         public static void main(String[] args) {
-            String str = "hello world";
+            String str = "imrankhan";
 
             // Create a LinkedHashSet to store the duplicate characters
             Set<Character> duplicates = new LinkedHashSet<>();
