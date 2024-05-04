@@ -3,6 +3,8 @@ package JavaImportant50Question;
 import java.util.HashSet;
 import java.util.Set;
 
+
+// print the all duplicate character in this string
 public class DuplicateStringPrint {
     public static void main(String[] args) {
         String str = "Imrankhan";
