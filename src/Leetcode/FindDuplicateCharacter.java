@@ -17,16 +17,15 @@ public class FindDuplicateCharacter {
 
             // Loop through the characters in the string and add them to the unique set if they haven't been seen before
             // or to the duplicate set if they have
-            for (char c : str.toCharArray()) {
-                if (!uniques.add(c)) {
-                    duplicates.add(c);
+            for (int i =0;i<str.length();i++) {
+                if (!uniques.add(str.charAt(i))) {
+                    duplicates.add(str.charAt(i));
                 }
             }
 
             // Print out the duplicate characters
-            System.out.print("Duplicate characters: ");
             for (Character c : duplicates) {
-                System.out.print(c + " ");
+                System.out.print(c );
             }
         }
     }
