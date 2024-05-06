@@ -22,6 +22,15 @@ public class Array_RotateKElement {
     }
 }
 
+// right to rotate in k element
+// exp = 1 2 3 4 5 6 7
+// k =3
+// 1st step -> 7,1,2,3,4,5,6
+//2nd      ->  6,7,1,2,3,4,5
+// 3rd step -> 5,6,7,1,2,3,4
+
+// es mai right side se count krna hi k step tak
+
 
 /*
 189. Rotate Array
