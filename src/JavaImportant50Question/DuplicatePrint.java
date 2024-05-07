@@ -9,13 +9,13 @@ public class DuplicatePrint {
       test(arr);
     }
      public static void test(int arr[]) {
-         HashSet<Integer> seen = new HashSet<>();
-         HashSet<Integer> duplicates = new HashSet<>();
+         HashSet<Integer> hs = new HashSet<>();
+         HashSet<Integer> hd = new HashSet<>();
 
          for (int i =0;i<arr.length;i++) {
-             if (!seen.add(arr[i])) {
+             if (!hs.add(arr[i])) {
                  // num is a duplicate, but check if it is already in the duplicates set
-                 if (duplicates.add(arr[i])) {
+                 if (hd.add(arr[i])) {
                      System.out.print(arr[i] + " ");
                  }
              }
