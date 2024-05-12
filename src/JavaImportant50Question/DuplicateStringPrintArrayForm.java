@@ -32,7 +32,24 @@ public class DuplicateStringPrintArrayForm {
 }
 
 
+//explain
+/*
+    Initialize str with "Imrankhan".
+        test method is called with "Imrankhan".
+        Sets hs and hd are initialized as empty sets.
+        Iterating over each character in "Imrankhan":
+        i = 0, str.charAt(i) = 'I': 'I' is added to hs.
+        i = 1, str.charAt(i) = 'm': 'm' is added to hs.
+        i = 2, str.charAt(i) = 'r': 'r' is added to hs.
+        i = 3, str.charAt(i) = 'a': 'a' is added to hs.
+        i = 4, str.charAt(i) = 'n': 'n' is added to hs.
+        i = 5, str.charAt(i) = 'k': 'k' is added to hs.
+        i = 6, str.charAt(i) = 'h': 'h' is added to hs.
+        i = 7, str.charAt(i) = 'a': 'a' cannot be added to hs (already present), so 'a' is added to hd.
+        i = 8, str.charAt(i) = 'n': 'n' cannot be added to hs (already present), so 'n' is added to hd.
+        Returns the set hd containing duplicate characters as a string: "[a, n]".
 
 
+ */
 
 
