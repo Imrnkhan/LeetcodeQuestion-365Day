@@ -24,8 +24,8 @@ public class FindDuplicateCharacter {
             }
 
             // Print out the duplicate characters
-            for (Character c : duplicates) {
-                System.out.print(c );
+            for (Character c : duplicates) {      // also use stream api 8=> duplicates.forEach(c -> System.out.print(c));
+                System.out.print(c);
             }
         }
     }
