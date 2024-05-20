@@ -12,7 +12,7 @@ public class FrequencyCountArray {
                 frequencyMap.put(arr[i], frequencyMap.getOrDefault(arr[i], 0) + 1);
             }
 
-            System.out.println(frequencyMap);
+           // System.out.println(frequencyMap);
 
             // Display the frequencies
             for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
@@ -22,3 +22,4 @@ public class FrequencyCountArray {
     }
 
 
+//count each and every element of array
