@@ -19,6 +19,49 @@ public class Buy_SellStock {
 
 
 /*
+Dry Run
+Let's perform a dry run with the example prices = [7, 1, 5, 3, 6, 4]:
+
+Initial State
+profit = 0
+minPrice = Integer.MAX_VALUE
+Iteration 1 (i = 0)
+prices[i] = 7
+minPrice = Math.min(Integer.MAX_VALUE, 7) = 7
+profit = Math.max(0, 7 - 7) = 0
+
+Iteration 2 (i = 1)
+prices[i] = 1
+minPrice = Math.min(7, 1) = 1
+profit = Math.max(0, 1 - 1) = 0
+
+Iteration 3 (i = 2)
+prices[i] = 5
+minPrice = Math.min(1, 5) = 1
+profit = Math.max(0, 5 - 1) = 4
+
+Iteration 4 (i = 3)
+prices[i] = 3
+minPrice = Math.min(1, 3) = 1
+profit = Math.max(4, 3 - 1) = 4
+
+Iteration 5 (i = 4)
+prices[i] = 6
+minPrice = Math.min(1, 6) = 1
+profit = Math.max(4, 6 - 1) = 5
+
+Iteration 6 (i = 5)
+prices[i] = 4
+minPrice = Math.min(1, 4) = 1
+profit = Math.max(5, 4 - 1) = 5
+Final State
+profit = 5
+So, the maximum profit is 5, which is achieved by buying at price 1 and selling at price 6.
+time -0(n)
+0(1) space
+ */
+
+/*
 class Solution {
 	int maxProfit(int[] prices) {
 	    int profit = 0;
