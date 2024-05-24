@@ -19,6 +19,7 @@ public class Count_words {
     }
 }
 
+//count string single sentance
 
 //
 //    int count = 0;
