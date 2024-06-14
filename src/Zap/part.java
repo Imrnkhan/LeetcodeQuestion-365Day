@@ -1,6 +1,6 @@
 package Zap;
 import java.util.*;
-class Swap
+class SwapThree
 {
     public static void main(String a[])
     {
