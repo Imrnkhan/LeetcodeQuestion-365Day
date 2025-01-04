@@ -1,7 +1,5 @@
 package File_and_IO_stream;
 
-//public class transient_keyword {
-//}
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;

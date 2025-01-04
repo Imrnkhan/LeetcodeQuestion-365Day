@@ -22,6 +22,21 @@ public class Reverse_EachWord {
 }
 
 
+
+/*
+        String[] words = input.split(" ");
+        StringBuilder reversed = new StringBuilder();
+        // Loop through the words array in reverse order and append each word
+        for (int i = words.length - 1; i >= 0; i--) {
+            reversed.append(words[i]);
+            if (i > 0) {
+                reversed.append(" ");
+            }
+        }
+        // Convert StringBuilder to String and return
+        return reversed.toString();
+ */
+
 //another way O(n)
 
 //public static String reverseWords(String s) {
