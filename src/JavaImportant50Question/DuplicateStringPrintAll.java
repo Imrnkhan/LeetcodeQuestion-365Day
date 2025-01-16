@@ -5,7 +5,7 @@ import java.util.Set;
 
 
 // print the all duplicate character in this string
-public class DuplicateStringPrint {
+public class DuplicateStringPrintAll {
     public static void main(String[] args) {
         String str = "Imrankhan";
         test(str);

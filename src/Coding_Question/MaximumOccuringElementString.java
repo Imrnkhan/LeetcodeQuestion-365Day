@@ -1,5 +1,6 @@
 package Coding_Question;
 
+import java.util.HashMap;
 import java.util.TreeMap;
 
 public class MaximumOccuringElementString {
@@ -7,17 +8,12 @@ public class MaximumOccuringElementString {
 
         String str = "abcdcsvscd";
 
-// create a TreeMap to store the frequency of each character
-        TreeMap<Character, Integer> charFreq = new TreeMap<>();
+        HashMap<Character, Integer> charFreq = new HashMap<>();
 
 // iterate through the string and count the frequency
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
-            if (charFreq.containsKey(c)) {
-                charFreq.put(c, charFreq.get(c) + 1);
-            } else {
-                charFreq.put(c, 1);
-            }
+            charFreq.put(c, charFreq.getOrDefault(c, 0) + 1);
         }
 
 // find the character with the highest frequency

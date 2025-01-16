@@ -1,7 +1,7 @@
 package interface_java;
 
 interface  InterfaceExp {
-    public void test();
+     void test();
 }
 class nextInter implements InterfaceExp{
 

@@ -14,11 +14,7 @@ public class MaximumOccuringElementInteger {
 // iterate through the array and count the frequency
         for (int i = 0; i < arr.length; i++) {
             int element = arr[i];
-            if (elementFreq.containsKey(element)) {
-                elementFreq.put(element, elementFreq.get(element) + 1);
-            } else {
-                elementFreq.put(element, 1);
-            }
+            elementFreq.put(element,elementFreq.getOrDefault(element,0)+1);
         }
 
         // find the element with the highest frequency
