@@ -4,7 +4,7 @@ package Multithreading_Day14;
 //}
 
 
-class MyThread extends Thread{
+class myThread extends Thread{
     int num=0;
     @Override
     public void run() {
@@ -20,7 +20,7 @@ class MyThread extends Thread{
 }
 class Test{
     public static void main(String[] args)throws Exception {
-        MyThread mt=new MyThread();
+        myThread mt=new myThread();
         mt.start();
         synchronized (mt) { //getting the lock of mt object
             System.out.println("main thread calls the wait method");
