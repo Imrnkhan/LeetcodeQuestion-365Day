@@ -19,18 +19,24 @@ class User implements Serializable {
     }
 }
 
-public class TransientExample {
+public class TransientExampleMain {
     public static void main(String[] args) {
         User user = new User("john_doe", "securePassword123");
 
         // Serialize the user object to a file
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("user.ser"))) {
+
+        try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
+             ObjectOutputStream out = new ObjectOutputStream(fileOut)) {
+
             out.writeObject(user);
-        } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Serialized data is saved in employee.ser");
+
+        } catch (IOException i) {
+            i.printStackTrace();
         }
 
         // Deserialize the user object from the file
+
         try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("user.ser"))) {
             User deserializedUser = (User) in.readObject();
             System.out.println("Deserialized User: " + deserializedUser);

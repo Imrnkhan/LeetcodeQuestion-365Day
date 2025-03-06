@@ -27,3 +27,9 @@ public class VolatileKeyword {
     }
 
 
+/*
+The code you provided simulates a scenario where two player threads are incrementing
+a shared counter variable, and both are trying to update it concurrently. The shared
+counter variable is marked as volatile, which ensures that any changes made to the counter
+ by one thread are immediately visible to all other threads.
+ */

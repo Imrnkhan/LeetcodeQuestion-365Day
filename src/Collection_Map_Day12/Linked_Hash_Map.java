@@ -9,10 +9,14 @@ public class Linked_Hash_Map {
         hm.put(100, "Amit");
         hm.put(101, "Vijay");
         hm.put(102, "Rahul");
+        System.out.println(hm);
+        hm.forEach((k,v)-> System.out.println(k+" "+v));
 
-        for (Map.Entry<Integer, String> me : hm.entrySet()) {
-            System.out.println(me.getKey() + " " + me.getValue());
+//        for (Map.Entry<Integer, String> me : hm.entrySet()) {        // same but another way
+//            System.out.println(me.getKey() + " " + me.getValue());
 
-        }
+//        }
     }
 }
+
+// linked data structure natural order follow krta hi
